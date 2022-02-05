@@ -1,0 +1,51 @@
+local g = vim.g
+local wo = vim.wo
+local o = vim.o
+local bo = vim.bo
+
+g.mapleader = ' '
+
+o.backup=false
+o.clipboard="unnamedplus"
+o.cmdheight=2
+-- o.completeopt = {"menuone", "noselect"}
+o.conceallevel = 0
+o.cursorline = true
+o.encoding='UTF-8'
+o.expandtab = true
+o.fileencoding = "utf-8"
+o.foldmethod = "manual"
+o.foldexpr = ""
+o.guifont = "Hack Nerd Font Mono:h21"
+o.hidden= true
+o.hlsearch = true
+o.ignorecase = true
+o.mouse="a"
+wo.number = true
+o.numberwidth = 4
+o.pumheight = 10
+o.relativenumber = false
+o.ruler = true
+o.signcolumn = "yes"
+o.shiftwidth = 2
+o.showmode = false
+o.showtabline = 2
+o.smartcase = true
+o.smartindent = true
+o.spell = false
+o.spelllang = "en"
+o.splitbelow= true
+o.splitright= true
+o.scrolloff = 8
+o.sidescrolloff = 8
+bo.swapfile = false
+bo.tabstop = 2
+o.termguicolors= true
+o.timeoutlen = 100
+o.title = true
+o.undofile = true
+o.updatetime = 100
+o.wrap = true
+o.writebackup = false
+
+vim.opt.shortmess:append "c"
