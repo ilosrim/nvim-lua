@@ -1,7 +1,6 @@
 require('plugins')
 require('lsp')
 require('lsp.lspinstall')
-require('lsp.emmet-ls')
 require('config.settings')
 require('config.keys')
 require('config.theme')
